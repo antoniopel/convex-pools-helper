@@ -56,10 +56,10 @@ task(
         }
 
         return {
-            //crvToken: poolInfo[0],
+            crvToken: poolInfo[0],
             crvTokenSymbol: crvTokenSymbol,
             cvxPool: cvxPoolName,
-            //gauge: poolInfo[0],
+            gauge: poolInfo[2],
             baseRewards: [ baseRewardTokenSymbol, "CVX" ],
             extraRewardTokens
         }
